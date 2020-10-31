@@ -46,6 +46,7 @@ The arrow on the right top is to **Reconnect** to the MQTT broker.
 
 # Platforms / Dependencies
 Framework: .NET Framework 4.7.2
+
 UI: WinForms (for simplicity)
 
 Libraries:
