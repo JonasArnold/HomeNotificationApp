@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="HomeNotificationApp" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="IpBroker" Type="System.String" Scope="User">
+      <Value Profile="(Default)">192.168.1.10</Value>
+    </Setting>
+    <Setting Name="PortBroker" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1883</Value>
+    </Setting>
+    <Setting Name="LoginUsername" Type="System.String" Scope="User">
+      <Value Profile="(Default)">jonas</Value>
+    </Setting>
+    <Setting Name="LoginPassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)">password</Value>
+    </Setting>
+    <Setting Name="ClientName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">jonas</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
