@@ -49,9 +49,9 @@ Framework: .NET Framework 4.7.2
 UI: WinForms (for simplicity)
 
 Libraries:
-[MQTTnet](https://github.com/chkr1011/MQTTnet)
-[NotificationWindow](https://github.com/Tulpep/Notification-Popup-Window)
-[Serilog](https://github.com/serilog)
+- [MQTTnet](https://github.com/chkr1011/MQTTnet)
+- [NotificationWindow](https://github.com/Tulpep/Notification-Popup-Window)
+- [Serilog](https://github.com/serilog)
 
 # Logging
 Logfile location: C:\log\HomeNotificationApp
