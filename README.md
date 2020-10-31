@@ -1,5 +1,6 @@
 # HomeNotificationApp
 A simple Windows tray application, which displays received MQTT messages as a notification and plays a sound.
+
 *This app was built to notify PCs via HomeAssistant with the Mosquitto MQTT broker installed.*
 
 # How it works
@@ -7,7 +8,9 @@ Since Windows Services are not able to display anything for the user I have chos
 
 ### HomeNotificationContext
 This is the Context program. In here the MQTT connection and message transmission happens.
+
 Also all of the logging happens in this class.
+
 It does update the UI fields of the ConfigForm and it triggers the display of notifications.
 
 **Display Notification**
@@ -25,7 +28,9 @@ With payload:
 
 ### MessageDisplayForm
 It is only possible to display a notification if the handle of a Form was already created. And for that it needs to run.
+
 Therefore I created this hidden Form that runs all the time. It is not shown in the taskbar and has the Size of 0. 
+
 **This Form's only job is to display the notifications.**
 
 ### ConfigForm
@@ -56,10 +61,12 @@ Libraries:
 
 # Logging
 Logfile location: C:\log\HomeNotificationApp
+
 Serilog is configured to create a new file every month.
 
 # Installation
 I install this app on the path: *C:\HomeNotification\V_1.0.0.1\*
+
 Then you can easily add this to autostart. Here is the batch commands for that:
 
     reg add HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v HomeNotificationApp /d C:\HomeNotification\V_1.0.0.1\HomeNotificationApp.exe
