@@ -6,14 +6,11 @@ using MQTTnet.Client.Options;
 using Serilog;
 using Serilog.Core;
 using System;
-using System.Media;
 using System.Net;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Tulpep.NotificationWindow;
-using Windows.UI.Xaml.Documents;
 
 namespace HomeNotificationApp
 {

@@ -77,9 +77,9 @@
       this.labelMqttStatus.AutoSize = true;
       this.labelMqttStatus.Location = new System.Drawing.Point(113, 9);
       this.labelMqttStatus.Name = "labelMqttStatus";
-      this.labelMqttStatus.Size = new System.Drawing.Size(50, 13);
+      this.labelMqttStatus.Size = new System.Drawing.Size(24, 13);
       this.labelMqttStatus.TabIndex = 3;
-      this.labelMqttStatus.Text = "STATUS";
+      this.labelMqttStatus.Text = "n/a";
       // 
       // label3
       // 
